@@ -1,0 +1,58 @@
+ID: 01
+Title: Should get correct number of endpoints
+Priority: Critical
+Coverage reason:
+1. Checking base URL is a critical priority
+Steps to reproduce:
+1. Send request to 'https://swapi.co/api/' endpoint.
+Expected result:
+1. There are 6 endpoints in response.
+------------------------
+ID: 
+Title:
+Priority:
+Steps to reproduce:
+Expected result:
+------------------------
+ID: 
+Title:
+Priority:
+Steps to reproduce:
+Expected result:l
+------------------------
+ID: 
+Title:
+Priority:
+Steps to reproduce:
+Expected result:
+------------------------
+ID: 
+Title:
+Priority:
+Steps to reproduce:
+Expected result:
+------------------------
+ID: 
+Title:
+Priority:
+Steps to reproduce:
+Expected result:
+------------------------
+ID: 
+Title:
+Priority:
+Steps to reproduce:
+Expected result:
+------------------------
+ID: 
+Title:
+Priority:
+Steps to reproduce:
+Expected result:
+------------------------
+ID: 
+Title:
+Priority:
+Steps to reproduce:
+Expected result:
+------------------------

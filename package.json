@@ -1,0 +1,29 @@
+{
+  "name": "starwars",
+  "version": "1.0.0",
+  "description": "Test automation project for Star Wars API",
+  "main": "index.js",
+  "scripts": {
+    "test": "rm -rf allure-results/* && mocha --opts='./support/mocha.opts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HalynaMelishkevich/starwars.git"
+  },
+  "author": "Halyna Melishkevych",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HalynaMelishkevich/starwars/issues"
+  },
+  "homepage": "https://github.com/HalynaMelishkevich/starwars#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "mocha-allure-reporter": "^1.4.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "winston": "^3.2.1"
+  }
+}

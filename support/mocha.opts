@@ -1,0 +1,3 @@
+--timeout 20000
+--recursive
+--require ./support/setup.js
