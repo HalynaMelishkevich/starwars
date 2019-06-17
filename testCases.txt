@@ -141,16 +141,48 @@ Steps to reproduce:
 2. Validate each result of the response by vehicles.json schema.
 Expected result:
 1. Validation passes.
-------------------------
-ID:
-Title:
-Priority:
+
+#######################
+FILMS CHECKS
+
+Coverage reason:
+To show more examples :)
+#######################
+
+ID: 14
+Title: Should calculate films count correctly
+Priority: Medium
 Steps to reproduce:
+1. Send request to 'https://swapi.co/api/films/' endpoint.
+2. Calculate the number of results in response.
+3. Compare response.count with the number from 2.
 Expected result:
+1. Numbers should be equal.
 ------------------------
-ID:
-Title:
-Priority:
+ID: 15
+Title: Films entity should not have pagination
+Priority: Medium
 Steps to reproduce:
+1. Send request to 'https://swapi.co/api/films/' endpoint.
+2. Check next and previous elements.
 Expected result:
+1. Elements should be null.
 ------------------------
+ID: 16
+Title: Films entities should have valid connections with people entities
+Priority: Medium
+Steps to reproduce:
+1. Send request to 'https://swapi.co/api/films/' endpoint.
+2. Extract characters from results of response.
+Expected result:
+1. Each link should be a valid person link.
+2. Each character link should respond with code 200.
+------------------------
+ID: 17
+Title: Each film entity should have unique identifier
+Priority: Medium
+Steps to reproduce:
+1. Send request to 'https://swapi.co/api/films/' endpoint.
+2. Check url element of each result.
+Expected result:
+1. It should be a unique link.
