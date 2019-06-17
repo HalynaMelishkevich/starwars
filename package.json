@@ -4,7 +4,9 @@
   "description": "Test automation project for Star Wars API",
   "main": "index.js",
   "scripts": {
-    "test": "rm -rf allure-results/* && mocha --opts='./support/mocha.opts'"
+    "report": "allure generate --clean './allure-results' && allure open",
+    "test-allure": "rm -rf allure-results/* && mocha --opts='./support/mocha.opts' --reporter mocha-allure-reporter",
+    "test-local": "mocha --opts='./support/mocha.opts'"
   },
   "repository": {
     "type": "git",
