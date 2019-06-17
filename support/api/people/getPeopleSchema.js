@@ -1,5 +1,5 @@
 const uri = 'people/schema';
-exports.uri = uri;
+exports.schemaUri = uri;
 exports.getPeopleSchema = async () => {
     return request.get(uri).send();
 };

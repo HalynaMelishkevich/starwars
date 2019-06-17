@@ -79,12 +79,23 @@ Steps to reproduce:
 Expected result:
 1. Response code is 200.
 2. Schema of /vehicles endpoint corresponds to requirements (see /support/schema/vehicles.json file).
-------------------------
-ID: 
-Title:
-Priority:
+
+#######################
+VALIDATION RESPONSES BY SCHEMA
+
+Coverage reason:
+Each response should correspond to it's expected schema.
+If server returns some data, but not in the format that client is expecting - then contract is not met and test results are misleading.
+#######################
+
+ID: 08
+Title: Response of /people endpoint should correspond to expected schema
+Priority: High
 Steps to reproduce:
+1. Send request to 'https://swapi.co/api/people' endpoint.
+2. Validate the response by people.json schema.
 Expected result:
+1. Validation passes.
 ------------------------
 ID: 
 Title:
