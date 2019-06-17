@@ -1,4 +1,4 @@
 #!/bin/sh
 
 npm i
-npm run test
+npm run test-allure
