@@ -62,11 +62,14 @@ Expected result:
 1. Response code is 200.
 2. Schema of /species endpoint corresponds to requirements (see /support/schema/species.json file).
 ------------------------
-ID: 
-Title:
-Priority:
+ID: 06
+Title: Should get correct /starships endpoint schema
+Priority: High
 Steps to reproduce:
+1. Send request to 'https://swapi.co/api/starships/schema' endpoint.
 Expected result:
+1. Response code is 200.
+2. Schema of /starships endpoint corresponds to requirements (see /support/schema/starships.json file).
 ------------------------
 ID: 
 Title:

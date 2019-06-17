@@ -1,4 +1,4 @@
-const { getSpeciesSchema, uri } = require('../support/api/Species/getSpeciesSchema');
+const { getSpeciesSchema, uri } = require('../support/api/species/getSpeciesSchema');
 const speciesSchema = require('../support/schema/species');
 
 describe(`Tests for "species" endpoint`, async () => {
