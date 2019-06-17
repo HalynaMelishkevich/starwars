@@ -1,5 +1,5 @@
 const { getStarshipsSchema, uri } = require('../support/api/starships/getStarshipsSchema');
-const starshipsSchema = require('../support/schema/Starships');
+const starshipsSchema = require('../support/schema/starships');
 
 describe(`Tests for "starships" endpoint`, async () => {
     it(`@06 Should get correct /starships endpoint schema`, async () => {
