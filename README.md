@@ -1,4 +1,8 @@
 # How to
+## Install
+```
+npm i
+```
 ###### Run locally with command-line reporting
 ```
 npm run test-local
