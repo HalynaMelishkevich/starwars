@@ -44,11 +44,14 @@ Expected result:
 1. Response code is 200.
 2. Schema of /films endpoint corresponds to requirements (see /support/schema/films.json file).
 ------------------------
-ID: 
-Title:
-Priority:
+ID: 04
+Title: Shouls get correct /planets endpoint schema
+Priority: High
 Steps to reproduce:
+1. Send request to 'https://swapi.co/api/planets/schema' endpoint.
 Expected result:
+1. Response code is 200.
+2. Schema of /planets endpoint corresponds to requirements (see /support/schema/planets.json file).
 ------------------------
 ID: 
 Title:
