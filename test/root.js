@@ -1,12 +1,11 @@
 const { getAllEndpoints } = require('../support/api/root/getRoot');
 
 describe(`Tests for base endpoint`, async () => {
-    it(`@01 Should get correct number of endpoints`, async () => {
-        allure.feature('Root');
+    it(`@01 Should get correct endpoints information`, async () => {
         const result = await getAllEndpoints();
-        logger.log('info', `Response on base URL request:\n${JSON.stringify(result)}`);
+        logger.log('info', `Response on base URL request: ${JSON.stringify(result)}`);
 
         result.status.should.equal(200);
-        assert.deepEqual(testData.expectedEndpoints.length, result.body.length, `Number of endpoints should be ${testData.expectedEndpoints.length}`);
+        assert.deepEqual(testData.expectedEndpoints, result.body, `Incorrect expected endpoints list`);
     });
 });

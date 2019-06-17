@@ -1,4 +1,6 @@
 const chai = require('chai');
+chai.use(require('chai-json-schema'));
+chai.use(require('chai-json-equal'));
 global.assert = chai.assert;
 global.should = chai.should();
 

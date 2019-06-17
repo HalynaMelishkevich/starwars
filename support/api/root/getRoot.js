@@ -1,4 +1,3 @@
 exports.getAllEndpoints = async () => {
-    return request.get('')
-        .send();
+    return request.get('').send();
 };

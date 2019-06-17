@@ -1,28 +1,60 @@
 ID: 01
-Title: Should get correct number of endpoints
+Title: Should get correct endpoints information
 Priority: Critical
 Coverage reason:
-1. Checking base URL is a critical priority
+The next set of reasons make this test a Critical priority and explains why it need to be automated:
+1. Nothing will work if base URL is down.
+2. If some endpoints changed - then the rest of tests would fail.
+3. If more endpoints are added - then the test scope need to be expanded.
+But before that test results would give misleading results and management can not rely on them.
 Steps to reproduce:
 1. Send request to 'https://swapi.co/api/' endpoint.
 Expected result:
-1. There are 6 endpoints in response.
+1. Endpoints information corresponds to requirements (see /support/testData.js file).
 ------------------------
-ID: 
-Title:
-Priority:
+ID: 02
+Title: Should get correct /people endpoint schema
+Priority: High
+Coverage reason:
+Checking schema is a crusial point before validating the data. If schema is changed - then tests should be adjusted.
+But before that test results would give misleading results and management can not rely on them.
 Steps to reproduce:
+1. Send request to 'https://swapi.co/api/people/schema' endpoint.
 Expected result:
+1. Schema of /people endpoint corresponds to requirements (see /support/schema/people.json file).
 ------------------------
 ID: 
 Title:
 Priority:
+Coverage reason:
 Steps to reproduce:
 Expected result:l
 ------------------------
 ID: 
 Title:
 Priority:
+Coverage reason:
+Steps to reproduce:
+Expected result:
+------------------------
+ID: 
+Title:
+Priority:
+Coverage reason:
+Steps to reproduce:
+Expected result:
+------------------------
+ID: 
+Title:
+Priority:
+Coverage reason:
+Steps to reproduce:
+Expected result:
+------------------------
+ID: 
+Title:
+Priority:
+Coverage reason:
 Steps to reproduce:
 Expected result:
 ------------------------
@@ -35,24 +67,7 @@ Expected result:
 ID: 
 Title:
 Priority:
-Steps to reproduce:
-Expected result:
-------------------------
-ID: 
-Title:
-Priority:
-Steps to reproduce:
-Expected result:
-------------------------
-ID: 
-Title:
-Priority:
-Steps to reproduce:
-Expected result:
-------------------------
-ID: 
-Title:
-Priority:
+Coverage reason:
 Steps to reproduce:
 Expected result:
 ------------------------
