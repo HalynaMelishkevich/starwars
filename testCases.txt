@@ -92,12 +92,63 @@ ID: 08
 Title: Response of /people endpoint should correspond to expected schema
 Priority: High
 Steps to reproduce:
-1. Send request to 'https://swapi.co/api/people' endpoint.
-2. Validate the response by people.json schema.
+1. Send request to 'https://swapi.co/api/people/' endpoint.
+2. Validate each result of the response by people.json schema.
 Expected result:
 1. Validation passes.
 ------------------------
-ID: 
+ID: 09
+Title: Response of /films endpoint should correspond to expected schema
+Priority: High
+Steps to reproduce:
+1. Send request to 'https://swapi.co/api/films/' endpoint.
+2. Validate each result of the response by films.json schema.
+Expected result:
+1. Validation passes.
+------------------------
+ID: 10
+Title: Response of /planets endpoint should correspond to expected schema
+Priority: High
+Steps to reproduce:
+1. Send request to 'https://swapi.co/api/planets/' endpoint.
+2. Validate each result of the response by planets.json schema.
+Expected result:
+1. Validation passes.
+------------------------
+ID: 11
+Title: Response of /species endpoint should correspond to expected schema
+Priority: High
+Steps to reproduce:
+1. Send request to 'https://swapi.co/api/species/' endpoint.
+2. Validate each result of the response by species.json schema.
+Expected result:
+1. Validation passes.
+------------------------
+ID: 12
+Title: Response of /starships endpoint should correspond to expected schema
+Priority: High
+Steps to reproduce:
+1. Send request to 'https://swapi.co/api/starships/' endpoint.
+2. Validate each result of the response by starships.json schema.
+Expected result:
+1. Validation passes.
+------------------------
+ID: 13
+Title: Response of /vehicles endpoint should correspond to expected schema
+Priority: High
+Steps to reproduce:
+1. Send request to 'https://swapi.co/api/vehicles/' endpoint.
+2. Validate each result of the response by vehicles.json schema.
+Expected result:
+1. Validation passes.
+------------------------
+ID:
+Title:
+Priority:
+Steps to reproduce:
+Expected result:
+------------------------
+ID:
 Title:
 Priority:
 Steps to reproduce:

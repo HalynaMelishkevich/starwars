@@ -1,5 +1,5 @@
 const uri = 'species/schema';
-exports.uri = uri;
+exports.schemaUri = uri;
 exports.getSpeciesSchema = async () => {
     return request.get(uri).send();
 };

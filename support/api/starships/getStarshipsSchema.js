@@ -1,5 +1,5 @@
 const uri = 'starships/schema';
-exports.uri = uri;
+exports.schemaUri = uri;
 exports.getStarshipsSchema = async () => {
     return request.get(uri).send();
 };
