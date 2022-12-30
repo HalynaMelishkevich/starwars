@@ -22,7 +22,7 @@
     "chai": "^4.2.0",
     "chai-json-equal": "0.0.1",
     "chai-json-schema": "^1.5.1",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "mocha-allure-reporter": "^1.4.0",
     "supertest": "^4.0.2"
   },
